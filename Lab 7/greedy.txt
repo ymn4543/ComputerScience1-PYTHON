@@ -1,0 +1,6 @@
+12 14 9
+Computer 5
+Books 4
+Dumbbells 10
+Microwave 7
+Stereo 8

@@ -1,0 +1,22 @@
+Name: Youssef Naguib
+
+1. The purpose of pivot is to limit the number of steps the quick_select function must take to find the intended number. By making pivot the middle element in the list, we make the complexity O(logN), while if we made pivot the first element, and went through every element in the list, the worst case complexity could be O(N^2).The algorithm will have worked but would have taken longer and taken up more memory.
+
+2. In order to test the validity of quick_select, we must perform multiple tests with expected results and see what the function returns. A few different cases that may be tested are short lists with an even number of elements, short lists with an odd number of elements, long lists with even number of elements, long list with odd number of elements, lists with multiple repeated elements, lists with no repeated elements. We may set k to 1 and expect the smallest element in the list to be returned in order for quick_select to be verified.
+
+3.
+ Quick_select process times:
+ #1:  0.02306509017944336 
+ #2:  0.026266098022460938
+ #3:  0.030411720275878906
+ #4:  0.030913114547729492
+ #5:  0.028649091720581055
+
+ Quick_Sort Median process times:
+ #1: 0.05653500556945801
+ #2: 0.04365229606628418
+ #3: 0.04884195327758789
+ #4: 0.04865598678588867
+ #5: 0.054055213928222656
+
+The quick_select method is faster than the quick_sort method, when it comes to finding the median in a list of numbers.
